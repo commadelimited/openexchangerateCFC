@@ -26,9 +26,9 @@
 		<cfargument name="app_id" type="string" required="true">
 
 		<cfscript>
-			VARIABLES.currentVersion = '0.1.1';
+			VARIABLES.currentVersion = '0.2.1';
 			VARIABLES.appName = 'openExchangeRateCFC';
-			VARIABLES.lastUpdated = DateFormat(CreateDate(2011,12,19),'mm/dd/yyyy');
+			VARIABLES.lastUpdated = DateFormat(CreateDate(2012,09,15),'mm/dd/yyyy');
 	        VARIABLES.apiRoot = 'http://openexchangerates.org';
 	        VARIABLES.docURL = 'http://josscrowcroft.github.com/open-exchange-rates/';
 	        VARIABLES.base = 'USD';
